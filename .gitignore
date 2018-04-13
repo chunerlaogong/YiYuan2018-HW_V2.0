@@ -1,0 +1,5 @@
+*.o
+Debug*/
+linker*/
+settings*/
+si folder*/
