@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>Rfid_RW_0G_I_DP_Ver1.0/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>177</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+        
+      <ColumnWidth0>473</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>710</ColumnWidth2><ColumnWidth3>315</ColumnWidth3></Find-in-Files>
+      <TerminalIO/>
+    <Select-Ambiguous-Definitions><ColumnWidth0>552</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>946</ColumnWidth2></Select-Ambiguous-Definitions></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16326-30778</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/SYS_INI</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/SYS_INI/TAG_COMMON</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_EEMFlASH</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_HMC5883L</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_MAIN</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_PROTOCOL</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_SPI</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_WDT</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_ZIGBEE</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26029-30800</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-5870-30974</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-18933-22957</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\bottomvalAdjustAdaptive.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>66</YPos2><SelStart2>2638</SelStart2><SelEnd2>2638</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_RTC\RtcDrv.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>37</YPos2><SelStart2>1419</SelStart2><SelEnd2>1419</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_CRC\CRC.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>48</YPos2><SelStart2>2903</SelStart2><SelEnd2>2903</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_CRC\CRC.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>301</SelStart2><SelEnd2>301</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\McuTarger.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>687</SelStart2><SelEnd2>695</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\parkStateJudge.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>155</YPos2><SelStart2>5481</SelStart2><SelEnd2>5481</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_ZIGBEE\zigbee.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>64</YPos2><SelStart2>2587</SelStart2><SelEnd2>2587</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\Exe\Rfid_RW_0G_I_DP_Ver1.0.out</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\struct.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>234</YPos2><SelStart2>8209</SelStart2><SelEnd2>8209</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\STM8L_LIB\inc\stm8l15x.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>2882</YPos2><SelStart2>127933</SelStart2><SelEnd2>127933</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_WDT\WDT.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>2</YPos2><SelStart2>732</SelStart2><SelEnd2>732</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_EEMFLASH\eemFlash.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>71</YPos2><SelStart2>2439</SelStart2><SelEnd2>2439</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_SPI\SPI.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>85</YPos2><SelStart2>2245</SelStart2><SelEnd2>2245</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_ZIGBEE\zigbee.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>15</YPos2><SelStart2>532</SelStart2><SelEnd2>532</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_SPI\SPI.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>35</YPos2><SelStart2>1353</SelStart2><SelEnd2>1353</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\STM8L_LIB\src\stm8l15x_adc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>618</YPos2><SelStart2>28535</SelStart2><SelEnd2>28535</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_WDT\WDT.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>616</YPos2><SelStart2>21164</SelStart2><SelEnd2>21164</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_MAIN\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\hmc5883l.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>673</SelStart2><SelEnd2>673</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\Common.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>3</YPos2><SelStart2>239</SelStart2><SelEnd2>239</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\hmc5883l.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>350</YPos2><SelStart2>11444</SelStart2><SelEnd2>11444</SelEnd2></Tab><ActiveTab>20</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_MAIN\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>447</YPos2><SelStart2>14129</SelStart2><SelEnd2>14129</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_PROTOCOL\protocol.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>203</YPos2><SelStart2>8241</SelStart2><SelEnd2>8241</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\Type.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>557</SelStart2><SelEnd2>557</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\Common.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\compilefiles.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>507</SelStart2><SelEnd2>507</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\statisMagneticDensity.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\statisMagneticDensity.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>396</YPos2><SelStart2>11514</SelStart2><SelEnd2>11514</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_PROTOCOL\protocol.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>865</YPos2><SelStart2>22710</SelStart2><SelEnd2>22710</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02634570><key>iaridepm.enu1</key></Toolbar-02634570></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes><Toolbar-1D52CDF8><key>debuggergui.enu1</key></Toolbar-1D52CDF8></Sizes></Row3></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>616</Bottom><Right>268</Right><x>-2</x><y>-2</y><xscreen>270</xscreen><yscreen>289</yscreen><sizeHorzCX>168750</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>168750</sizeVertCX><sizeVertCY>755501</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>157</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>159</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>194377</sizeHorzCY><sizeVertCX>168750</sizeVertCX><sizeVertCY>353301</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

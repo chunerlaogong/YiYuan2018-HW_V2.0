@@ -1,0 +1,159 @@
+[DebugChecksum]
+Checksum=426250779
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CodeCoverage]
+Enabled=_ 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=16000000
+[struct_types]
+Fmt0=RTC_DateTypeDef-RTC_Date	3	0
+Fmt1=RTC_DateTypeDef-RTC_Month	3	0
+Fmt2=RTC_DateTypeDef-RTC_Year	3	0
+Fmt3=RTC_TimeTypeDef-RTC_Hours	3	0
+Fmt4=RTC_TimeTypeDef-RTC_Minutes	3	0
+Fmt5=RTC_TimeTypeDef-RTC_Seconds	3	0
+Fmt6=ScontrolerConfig-Tag_initNB	4	0
+Fmt7=ScontrolerConfig-Tag_status	4	0
+Fmt8=SnodeConfig-UserCode	3	0
+Fmt9=SparaConfig-AlarmStatus	4	0
+Fmt10=SparaConfig-AlarmValid	4	0
+Fmt11=SparaConfig-WdtInterval	3	0
+Fmt12=sBT-BT_RX_CNT	3	0
+Fmt13=sBT-BT_RX_FLAG	4	0
+Fmt14=sBT-BT_TX_CNT	3	0
+Fmt15=sNB-ber	3	0
+Fmt16=sNB-current_cmd_num	3	0
+Fmt17=sNB-network_status	1	0
+Fmt18=sNB-rssi	3	0
+Fmt19=sNB_RECEIVE-receive_status	4	0
+Fmt20=sNB_SERVER-status	1	0
+Fmt21=sNBiotAT-CurrentCmdNum	3	0
+Fmt22=sNBiotAT-NetworkStatus	4	0
+Fmt23=sNBiotAT-RxCnt	3	0
+Fmt24=sNBiotAT-SleepFlag	4	0
+Fmt25=sNBiotAT-TxCnt	3	0
+Fmt26=sParamOfNBTag-AlarmValid	4	0
+Fmt27=sParamOfNBTag-Tag_initNB	4	0
+Fmt28=sParamOfNBTag-Tag_status	4	0
+[array_types]
+Fmt0=U8[9]	4	0
+Fmt1=char[150]	4	0
+Fmt2=uint8_t[180]	4	0
+Fmt3=uint8_t[3]	4	0
+Fmt4=uint8_t[4]	3	0
+Fmt5=unsigned char[3]	4	0
+Fmt6=unsigned char[40]	4	0
+Fmt7=unsigned char[50]	4	0
+[watch_formats]
+Fmt0={W}1:SendPackCount	3	0
+Fmt1={W}1:Send_SX_Count	3	0
+Fmt2={W}1:ssss	3	0
+Fmt3={W}1:statis_set->data[n].y	3	0
+Fmt4={W}1:statis_set->data[n].z	3	0
+Fmt5={W}1:statis_set->mean_y	3	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$}.1134.5" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$}.497.21" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$}.1406.5" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$}.424.4" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$}.416.5" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.842.1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.842.3" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.840.3" 0 0 0 0 "" 0 ""
+Bp8=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.831.3" 0 0 0 0 "" 0 ""
+Bp9=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.818.3" 0 0 0 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.795.1" 0 0 0 0 "" 0 ""
+Bp11=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.790.3" 0 0 0 0 "" 0 ""
+Bp12=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.760.1" 0 0 0 0 "" 0 ""
+Bp13=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_flash.c}.760.3" 0 0 0 0 "" 0 ""
+Bp14=_ "STD_CODE" "{H:\工具资料\NB_IOT}.493.1" 0 0 0 0 "" 0 ""
+Bp15=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_clk.c}.721.1" 1 0 0 0 "" 0 ""
+Bp16=_ "STD_CODE" "{$PROJ_DIR$\TAG_R3100\parkStateJudge.c}.220.13" 0 0 0 0 "" 0 ""
+Bp17=_ "STD_CODE" "{$PROJ_DIR$\TAG_R3100\parkStateJudge.c}.237.9" 0 0 0 0 "" 0 ""
+Bp18=_ "STD_CODE" "{$PROJ_DIR$\TAG_RTC\RTC_Driver.c}.113.1" 0 0 0 0 "" 0 ""
+Bp19=_ "STD_CODE" "{$PROJ_DIR$\TAG_WDT\WDT.c}.370.3" 0 0 0 0 "" 0 ""
+Bp20=_ "STD_CODE" "{$PROJ_DIR$\TAG_WDT\WDT.c}.340.2" 0 0 0 0 "" 0 ""
+Bp21=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_clk.c}.992.3" 0 0 0 0 "" 0 ""
+Bp22=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_clk.c}.998.5" 0 0 0 0 "" 0 ""
+Bp23=_ "STD_CODE" "{$PROJ_DIR$\STM8L_LIB\src\stm8l15x_clk.c}.994.5" 0 0 0 0 "" 0 ""
+Bp24=_ "STD_CODE" "{$PROJ_DIR$\TAG_MAIN\main.c}.240.2" 1 0 0 0 "" 0 ""
+Bp25=_ "STD_CODE" "{$PROJ_DIR$\TAG_BT\Bluetooth.c}.89.2" 0 0 0 0 "" 0 ""
+Bp26=_ "STD_CODE" "{$PROJ_DIR$\TAG_BT\Bluetooth.c}.98.2" 0 0 0 0 "" 0 ""
+Bp27=_ "STD_CODE" "{$PROJ_DIR$\TAG_MAIN\main.c}.213.2" 1 0 0 0 "" 0 ""
+Bp28=_ "STD_CODE" "{$PROJ_DIR$\TAG_NBIOT\MyNBIOT.c}.76.2" 1 0 0 0 "" 0 ""
+Bp29=_ "STD_CODE" "{$PROJ_DIR$\TAG_NBIOT\MyNBIOT.c}.87.2" 1 0 0 0 "" 0 ""
+Count=30
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\BC95_Domestic_Document_20170315\Rfid_RW_R3100_DP_2.0_Ver0.7_20170629\TAG_MAIN\main.c" ""
+A1=_ "C:\Users\Administrator\Desktop\BC95_Domestic_Document_20170315\Rfid_RW_R3100_DP_2.0_Ver0.7_20170726\TAG_MAIN\main.c" ""
+A2=_ "C:\Users\Administrator\Desktop\Rfid_RW_R3100_DP_Ver0.4_20170331\Rfid_RW_R3100_DP_Ver0.4_20170331\TAG_R3100\statisMagneticDensity.c" ""
+A3=_ "C:\Users\Administrator\Desktop\泰州出差资料\new rfid rw\Rfid_RW_0G_I_DP_Ver3_3_20161204\STM8L_LIB\src\stm8l15x_rtc.c" ""
+A4=_ "C:\Users\Administrator\Desktop\我的文件\Rfid_RW_R3100_DP_Ver0.4_20170318\Rfid_RW_R3100_DP_Ver0.4_20170318\TAG_ADC\ADCDrv.c" ""
+A5=_ "E:\泊位保软件\地磁3.0\泊位保1.3程序 改\Rfid_RW_0G_I_DP_Ver2_9_20161118\TAG_CRC\CRC.c" ""
+A6=_ "E:\泊位保软件\地磁pni\Rfid_RW_R3100_DP_Ver1_0_20170228\TAG_COMMON\Common.c" ""
+A7=_ "F:\地磁\泊位保app\Rfid_RW_0G_I_DP_Ver2_3_20161101\TAG_MAIN\main.c" ""
+A8=_ "F:\地磁\泊位保app\Rfid_RW_0G_I_DP_Ver2_3_20161101\TAG_PROTOCOL\protocol.c" ""
+Count=9
+SuppressDialog=1
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0

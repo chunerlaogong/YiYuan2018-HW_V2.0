@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>Rfid_RW_0G_I_DP_Ver1.0/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>248</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+      <TerminalIO/>
+      <Find-in-Files>
+        
+        
+        
+        
+      <ColumnWidth0>473</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>710</ColumnWidth2><ColumnWidth3>315</ColumnWidth3></Find-in-Files>
+    <Debug-Log><ColumnWidth0>25</ColumnWidth0><ColumnWidth1>1536</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12904-16670</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/SYS_INI</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/SYS_INI/TAG_COMMON</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_HMC5883L</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_MAIN</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_WDT</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30741-16745</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-1019-6400</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-10317-21745</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Rfid_RW_0G_I_DP_Ver3_2_20161203\TAG_MAIN\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>447</YPos2><SelStart2>14827</SelStart2><SelEnd2>14827</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_EEMFLASH\eemFlash.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>342</SelStart2><SelEnd2>342</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_PROTOCOL\protocol.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>201</YPos2><SelStart2>7541</SelStart2><SelEnd2>7541</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\parkStateJudge.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>144</YPos2><SelStart2>5008</SelStart2><SelEnd2>5008</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\bottomvalAdjustAdaptive.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>3956</SelStart2><SelEnd2>3956</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\statisMagneticDensity.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>369</YPos2><SelStart2>9897</SelStart2><SelEnd2>9897</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\statisMagneticDensity.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1</YPos2><SelStart2>194</SelStart2><SelEnd2>212</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_WDT\WDT.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>517</YPos2><SelStart2>18686</SelStart2><SelEnd2>18686</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\Common.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>26</YPos2><SelStart2>643</SelStart2><SelEnd2>643</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\compilefiles.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>677</SelStart2><SelEnd2>677</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\CYRF6936.H</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\bottomvalAdjustAdaptive.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\hmc5883l.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>673</SelStart2><SelEnd2>673</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\parkStateJudge.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_MAIN\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>444</YPos2><SelStart2>14143</SelStart2><SelEnd2>14143</SelEnd2></Tab><ActiveTab>14</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_PROTOCOL\protocol.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>857</YPos2><SelStart2>27677</SelStart2><SelEnd2>27678</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\hmc5883l.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>313</YPos2><SelStart2>11323</SelStart2><SelEnd2>11336</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_SPI\SPI.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>33</YPos2><SelStart2>1026</SelStart2><SelEnd2>1026</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-005152A8><key>iaridepm.enu1</key></Toolbar-005152A8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>561</Bottom><Right>339</Right><x>-2</x><y>-2</y><xscreen>270</xscreen><yscreen>289</yscreen><sizeHorzCX>168750</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>213125</sizeVertCX><sizeVertCY>688264</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>212</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>214</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>261614</sizeHorzCY><sizeVertCX>168750</sizeVertCX><sizeVertCY>353301</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>Rfid_RW_0G_I_DP_Ver1.0/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>192</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+      <TerminalIO/>
+    <PROJECT_GUI_CALL_GRAPH><col-names><item>File</item><item>Function</item><item>Line</item></col-names><col-widths><item>200</item><item>700</item><item>100</item></col-widths><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></PROJECT_GUI_CALL_GRAPH><Find-in-Files><ColumnWidth0>569</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>854</ColumnWidth2><ColumnWidth3>379</ColumnWidth3></Find-in-Files><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1861</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-32390-12416</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/SYS_INI</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/SYS_INI/STM8L_LIB</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/SYS_INI/TAG_COMMON</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_ADC</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_CRC</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_EEMFlASH</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_GPIO</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_HMC5883L</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_IIC</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_MAIN</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_TIM4</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_WDT</ExpandedNode><ExpandedNode>Rfid_RW_0G_I_DP_Ver1.0/TAG_ZIGBEE</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9848-12429</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-16423-8911</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-10004-11487</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\hmc5883l.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>188</YPos2><SelStart2>5688</SelStart2><SelEnd2>5688</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\struct.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>371</YPos2><SelStart2>14304</SelStart2><SelEnd2>14304</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\McuTarger.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>742</SelStart2><SelEnd2>742</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_GPIO\GPIODrv.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>299</SelStart2><SelEnd2>299</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\STM8L_LIB\src\stm8l15x_exti.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>126</YPos2><SelStart2>6718</SelStart2><SelEnd2>6718</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SYS_INI\SYSIni.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1</YPos2><SelStart2>1368</SelStart2><SelEnd2>1368</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\STM8L_LIB\src\stm8l15x_rtc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1375</YPos2><SelStart2>49973</SelStart2><SelEnd2>49973</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\STM8L_LIB\stm8l15x_it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>413</YPos2><SelStart2>10612</SelStart2><SelEnd2>10612</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_MAIN\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>488</YPos2><SelStart2>16302</SelStart2><SelEnd2>16302</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\STM8L_LIB\stm8l15x_it.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>34</YPos2><SelStart2>1262</SelStart2><SelEnd2>1262</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_COMMON\Common.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>12</YPos2><SelStart2>871</SelStart2><SelEnd2>871</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_ADC\ADCDrv.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>761</SelStart2><SelEnd2>761</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_CRC\CRC.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>41</YPos2><SelStart2>1144</SelStart2><SelEnd2>1144</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_EEMFLASH\eemFlash.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>267</YPos2><SelStart2>12525</SelStart2><SelEnd2>12525</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_IIC\Iic.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>117</YPos2><SelStart2>2209</SelStart2><SelEnd2>2209</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_MAIN\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>46</SelStart2><SelEnd2>46</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_WDT\WDT.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>229</YPos2><SelStart2>6064</SelStart2><SelEnd2>6064</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_PROTOCOL\protocol.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>130</YPos2><SelStart2>4348</SelStart2><SelEnd2>4348</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_ZIGBEE\zigbee.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>417</YPos2><SelStart2>13722</SelStart2><SelEnd2>13722</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\hmc5883l.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_HMC5883L\common_.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\TAG_IIC\Iic.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>727</SelStart2><SelEnd2>727</SelEnd2></Tab><ActiveTab>21</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-04939050><key>iaridepm.enu1</key></Toolbar-04939050></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>754</Bottom><Right>283</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>104167</sizeHorzCX><sizeHorzCY>200602</sizeHorzCY><sizeVertCX>148438</sizeVertCX><sizeVertCY>758275</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>200</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>200602</sizeHorzCY><sizeVertCX>104167</sizeVertCX><sizeVertCY>200602</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<settings>
+    <DebugChecksum>
+        <Checksum>652275100</Checksum>
+    </DebugChecksum>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <SumEnabled>0</SumEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <SumEnabled>0</SumEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemoryMap>
+        <Enabled>0</Enabled>
+        <Base>0</Base>
+        <UseAuto>0</UseAuto>
+        <TypeViolation>1</TypeViolation>
+        <UnspecRange>1</UnspecRange>
+        <ActionState>1</ActionState>
+    </MemoryMap>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <Simulator>
+        <Freq>16000000</Freq>
+    </Simulator>
+    <struct_types>
+        <Fmt0>RTC_DateTypeDef-RTC_Date	3	0</Fmt0>
+        <Fmt1>RTC_DateTypeDef-RTC_Month	3	0</Fmt1>
+        <Fmt2>RTC_DateTypeDef-RTC_Year	3	0</Fmt2>
+        <Fmt3>RTC_TimeTypeDef-RTC_Hours	3	0</Fmt3>
+        <Fmt4>RTC_TimeTypeDef-RTC_Minutes	3	0</Fmt4>
+        <Fmt5>RTC_TimeTypeDef-RTC_Seconds	3	0</Fmt5>
+        <Fmt6>ScontrolerConfig-Tag_initNB	4	0</Fmt6>
+        <Fmt7>ScontrolerConfig-Tag_status	4	0</Fmt7>
+        <Fmt8>SnodeConfig-UserCode	3	0</Fmt8>
+        <Fmt9>SparaConfig-AlarmStatus	4	0</Fmt9>
+        <Fmt10>SparaConfig-AlarmValid	4	0</Fmt10>
+        <Fmt11>SparaConfig-WdtInterval	3	0</Fmt11>
+        <Fmt12>sBT-BT_RX_CNT	3	0</Fmt12>
+        <Fmt13>sBT-BT_RX_FLAG	4	0</Fmt13>
+        <Fmt14>sBT-BT_TX_CNT	3	0</Fmt14>
+        <Fmt15>sNB-ber	3	0</Fmt15>
+        <Fmt16>sNB-current_cmd_num	3	0</Fmt16>
+        <Fmt17>sNB-network_status	1	0</Fmt17>
+        <Fmt18>sNB-rssi	3	0</Fmt18>
+        <Fmt19>sNB_RECEIVE-receive_status	4	0</Fmt19>
+        <Fmt20>sNB_SERVER-status	1	0</Fmt20>
+        <Fmt21>sNBiotAT-CurrentCmdNum	3	0</Fmt21>
+        <Fmt22>sNBiotAT-NetworkStatus	4	0</Fmt22>
+        <Fmt23>sNBiotAT-RxCnt	3	0</Fmt23>
+        <Fmt24>sNBiotAT-SleepFlag	4	0</Fmt24>
+        <Fmt25>sNBiotAT-TxCnt	3	0</Fmt25>
+        <Fmt26>sParamOfNBTag-AlarmValid	4	0</Fmt26>
+        <Fmt27>sParamOfNBTag-Tag_initNB	4	0</Fmt27>
+        <Fmt28>sParamOfNBTag-Tag_status	4	0</Fmt28>
+    </struct_types>
+    <array_types>
+        <Fmt0>U8[9]	4	0</Fmt0>
+        <Fmt1>char[150]	4	0</Fmt1>
+        <Fmt2>uint8_t[180]	4	0</Fmt2>
+        <Fmt3>uint8_t[3]	4	0</Fmt3>
+        <Fmt4>uint8_t[4]	3	0</Fmt4>
+        <Fmt5>unsigned char[3]	4	0</Fmt5>
+        <Fmt6>unsigned char[40]	4	0</Fmt6>
+        <Fmt7>unsigned char[50]	4	0</Fmt7>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}1:SendPackCount	3	0</Fmt0>
+        <Fmt1>{W}1:Send_SX_Count	3	0</Fmt1>
+        <Fmt2>{W}1:ssss	3	0</Fmt2>
+        <Fmt3>{W}1:statis_set-&gt;data[n].y	3	0</Fmt3>
+        <Fmt4>{W}1:statis_set-&gt;data[n].z	3	0</Fmt4>
+        <Fmt5>{W}1:statis_set-&gt;mean_y	3	0</Fmt5>
+    </watch_formats>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <Aliases>
+        <A0>_ "C:\Users\Administrator\Desktop\BC95_Domestic_Document_20170315\Rfid_RW_R3100_DP_2.0_Ver0.7_20170629\TAG_MAIN\main.c" ""</A0>
+        <A1>_ "C:\Users\Administrator\Desktop\BC95_Domestic_Document_20170315\Rfid_RW_R3100_DP_2.0_Ver0.7_20170726\TAG_MAIN\main.c" ""</A1>
+        <A2>_ "C:\Users\Administrator\Desktop\Rfid_RW_R3100_DP_Ver0.4_20170331\Rfid_RW_R3100_DP_Ver0.4_20170331\TAG_R3100\statisMagneticDensity.c" ""</A2>
+        <A3>_ "C:\Users\Administrator\Desktop\我的文件\Rfid_RW_R3100_DP_Ver0.4_20170318\Rfid_RW_R3100_DP_Ver0.4_20170318\TAG_ADC\ADCDrv.c" ""</A3>
+        <A4>_ "C:\Users\Administrator\Desktop\泰州出差资料\new rfid rw\Rfid_RW_0G_I_DP_Ver3_3_20161204\STM8L_LIB\src\stm8l15x_rtc.c" ""</A4>
+        <A5>_ "E:\泊位保软件\地磁3.0\泊位保1.3程序 改\Rfid_RW_0G_I_DP_Ver2_9_20161118\TAG_CRC\CRC.c" ""</A5>
+        <A6>_ "E:\泊位保软件\地磁pni\Rfid_RW_R3100_DP_Ver1_0_20170228\TAG_COMMON\Common.c" ""</A6>
+        <A7>_ "F:\地磁\泊位保app\Rfid_RW_0G_I_DP_Ver2_3_20161101\TAG_MAIN\main.c" ""</A7>
+        <A8>_ "F:\地磁\泊位保app\Rfid_RW_0G_I_DP_Ver2_3_20161101\TAG_PROTOCOL\protocol.c" ""</A8>
+        <Count>9</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+    <DebuggerSettings>
+        <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
+        <LeaveTargetRunning>0</LeaveTargetRunning>
+    </DebuggerSettings>
+</settings>
