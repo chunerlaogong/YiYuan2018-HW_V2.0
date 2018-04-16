@@ -4,7 +4,7 @@
 
 #include "Type.h"
 #include "struct.h"
-
+#include <stdio.h>
 #define MAX_(bit1, bit2)  ((bit1) >= (bit2) ? (bit1) : (bit2))// 最大值
 #define MIN_(bit1, bit2)  ((bit1) <= (bit2) ? (bit1) : (bit2))// 最小值
 #define TYPE_S8(data) (data) > 127 ? 127 : ((data) < -127 ? -127 : (data));//当data>127时，data=127；当-127=<data<=127时，data=data；当data<-127时，data=-127

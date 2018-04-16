@@ -30,11 +30,11 @@ extern char ATCmdFromBTData[30];
 /***********指令说明***************
 *AT+
 *NRB:模块重启                                  CMEE=1:报告移动终端错误            CFUN?:设置终端功能 
-*NBAND?:设置频段                               NCCID?:开片识别                CGSN=1:查询模块序列号
-*CIMI:查询国际移动设备身份码                          CSQ:获取信号强度                 CEREG?:查询网络注册状态 
-*CGPADDR:显示PDP地址                           CCLK?:返回当前日期和时间            CSCON?:查询信号连接状态
-*CGATT?:PS连接或分离                            NUESTATS:获取的操作统计           CGMR:查询固件版本
-*NSOCR=DGRAM,17,8888,1:创建Socket,17-udp     NSOST:发送数据                 NSORF=0,256:接收命令 0-NSOCR返回值 256-max recive data len
+*NBAND?:设置频段                               NCCID?:开片识�?               CGSN=1:查询模块序列�?
+*CIMI:查询国际移动设备身份�?                         CSQ:获取信号强度                 CEREG?:查询网络注册状�?
+*CGPADDR:显示PDP地址                           CCLK?:返回当前日期和时�?           CSCON?:查询信号连接状�?
+*CGATT?:PS连接或分�?                           NUESTATS:获取的操作统�?          CGMR:查询固件版本
+*NSOCR=DGRAM,17,8888,1:创建Socket,17-udp     NSOST:发送数�?                NSORF=0,256:接收命令 0-NSOCR返回�?256-max recive data len
 *NSOCL=0:关闭Socket                          NSOCR=DGRAM,17,8990,1/AT+NSOCR=DGRAM,17,8992,1-创建不同端口的socket
 */ 
 const sNB_CMD MyNBIOT_CMD_data[30] = 
@@ -83,7 +83,7 @@ RETURN_STATUS SendDataToNB(pNBiotAT pMyNBAT)//, uint8_t cmd_num, char *fmt,...)
 	memset(pMyNBAT->ATReturn, 0, NB_RECEIVE_BUFFER_SIZE);
 	memset(pMyNBAT->ErrorCode, 0, NB_ERROR_CODE_SIZE);
 	pMyNBAT->RxCnt = 0;
-	print("Send to NB:%s\n", pMyNBAT->ATCMDData);
+	printf("Send to NB:%s\n", pMyNBAT->ATCMDData);
 	sendUsartData(USART_FOR_NB, pMyNBAT->ATCMDData, pMyNBAT->TxCnt);
 	while(pMyNBAT->NBReturn == NO_BACK)
 	{
@@ -333,8 +333,8 @@ void checkNBNetwork(pNBiotAT pMyNBAT)
 	{
 		//DoNBiotATCmd(pMyNBAT, AT_CDPSERVERCFG, JUDGE_NONE, "", pMyNBAT->ATCMDData);
                 char *CDPCntStr = "AT+NCDP=180.101.147.115,5683\r\n";
-                print("CDPCntStr len = %d\n", strlen(CDPCntStr));
-				print("CDPCntStr = %s\n", CDPCntStr);
+                printf("CDPCntStr len = %d\n", strlen(CDPCntStr));
+				printf("CDPCntStr = %s\n", CDPCntStr);
                 sendUsartData(USART_FOR_NB, CDPCntStr, strlen(CDPCntStr));
                 sendUsartData(USART_FOR_NB, CDPCntStr, strlen(CDPCntStr));
                 sendUsartData(USART_FOR_NB, CDPCntStr, strlen(CDPCntStr));
@@ -344,7 +344,7 @@ void checkNBNetwork(pNBiotAT pMyNBAT)
 		LED1_clr;DelayOneMs(300);LED1_set;DelayOneMs(300);
 		LED1_clr;DelayOneMs(300);LED1_set;DelayOneMs(300);
 		LED1_clr;DelayOneMs(300);LED1_set;DelayOneMs(300);LED1_clr;
-		print("COAP net work registere successful...\n");
+		printf("COAP net work registere successful...\n");
 	}
 	#else
 	if(DoNBiotATCmd(pMyNBAT, AT_CEREG, JUDGE_AND, "CEREG:0,1", pMyNBAT->ATCMDData) == SUCCESS)	//ע������ɹ�
@@ -359,18 +359,18 @@ void checkNBNetwork(pNBiotAT pMyNBAT)
 		LED1_clr;DelayOneMs(300);LED1_set;DelayOneMs(300);
 		LED1_clr;DelayOneMs(300);LED1_set;DelayOneMs(300);
 		LED1_clr;DelayOneMs(300);LED1_set;DelayOneMs(300);LED1_clr;
-		print("UDP net work registere successful...\n");
+		printf("UDP net work registere successful...\n");
 	}
 	#endif    
 	else
 	{
 		AttachNetworkCount++;
-                print("start to ATTACH_NETWORK_MAX_TRY");
+                printf("start to ATTACH_NETWORK_MAX_TRY");
 		if(AttachNetworkCount > ATTACH_NETWORK_MAX_TRY)
 		{
 			AttachNetworkCount = 0;
 			DoNBiotATCmd(pMyNBAT, AT_NRB, JUDGE_NONE, "", pMyNBAT->ATCMDData);
-			print("ATTACH_NETWORK_MAX_TRY");
+			printf("ATTACH_NETWORK_MAX_TRY");
 		}
 		//δע�ᵽ����
 	}

@@ -133,15 +133,15 @@ unsigned char SendAlarmPackage(Pcontroler_Symple TagCng,unsigned char RequestAck
 	if(SUCCESS == DoNBiotATCmd((pNBiotAT)&NBAtCommand, 0, JUDGE_NONE, "", "AT+NMGS=%d,%s\r\n", lens+2, txbuf_temp))
 	{
 		LED2_clr;
-		print("COAP:send data successful ...\n");
+		printf("COAP:send data successful ...\n");
 	}
 	#else
-	print("start to send NB-UDP data\n");
+	printf("start to send NB-UDP data\n");
 	if(SUCCESS == DoNBiotATCmd((pNBiotAT)&NBAtCommand, 0, JUDGE_NONE, "", "AT+NSOST=%d,%d.%d.%d.%d,%d,%d,%s\r\n", 0, TagParam.DefaultIPAddr[0],
 			TagParam.DefaultIPAddr[1], TagParam.DefaultIPAddr[2], TagParam.DefaultIPAddr[3], TagParam.DefaultPort, lens+2, txbuf_temp))
 	{
 		LED2_clr;
-		print("UDP:send data successful ...\n");
+		printf("UDP:send data successful ...\n");
 	}
 	#endif
 	return test;

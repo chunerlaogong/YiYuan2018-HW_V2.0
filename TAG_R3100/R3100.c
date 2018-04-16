@@ -240,16 +240,16 @@ void judge_changeOfmodule(Pcontroler_Symple TagCng)
 											//发送消息前开中断
 	if (berthStateSwithProcess(&ParkState, TagCng) == STATE_REVERSAL)
 	{
-                print("car state Reversal\n");
+                printf("car state Reversal\n");
 	 	DebugInfFlag=0;
 		while(SendC>0)
 		{
-			print("SendC = %d\n", SendC);
+			printf("SendC = %d\n", SendC);
 			SendCarStatus(TagCng,ParkState);
 			if(ParkState == 1)
 		    {
 				//打开BT
-				print("yjd-BTPowerSet\n");
+				printf("yjd-BTPowerSet\n");
 		        BTPowerSet;
 		        USART_Cmd(USART_FOR_BT, ENABLE);
 				Test_Product_Flag = 1;
@@ -270,7 +270,7 @@ void judge_changeOfmodule(Pcontroler_Symple TagCng)
 	}
 	else														//如果状态未翻转，则启动心跳检查程序
 	{  
-        print("car state Not Reversal\n");
+        printf("car state Not Reversal\n");
 		if ((++SendNodeCount)>=SendPackCount)					//发包控制，达到心跳发包时间         
 		{
 			enableInterrupts();									//发送消息前开中断

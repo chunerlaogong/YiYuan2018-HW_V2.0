@@ -146,18 +146,34 @@ void sendUsartData(USART_TypeDef* USARTx,char *pSendBuf, uint16_t len){
 */
 void initUsartDebug()
 { 
-  GPIO_Init(GPIOE,GPIO_Pin_4, GPIO_Mode_Out_PP_Low_Fast);
-  GPIO_Init(GPIOE,GPIO_Pin_3, GPIO_Mode_In_PU_No_IT);
-  CLK_PeripheralClockConfig(CLK_Peripheral_USART2, ENABLE);
-  USART_DeInit(UART_DEBUG);   /* 将寄存器的值复位 */
-  /*9600/8/N/1*/
-  USART_Init(UART_DEBUG, (u32)9600, USART_WordLength_8b, USART_StopBits_1,USART_Parity_No,(USART_Mode_TypeDef)(USART_Mode_Rx | USART_Mode_Tx));
-  USART_ClearITPendingBit(USART1, USART_IT_RXNE);
-  USART_ITConfig(UART_DEBUG, USART_IT_RXNE, ENABLE);//使能串口2接收中断
-  USART_ITConfig(UART_DEBUG, USART_IT_ERR, ENABLE);
-  USART_Cmd(UART_DEBUG, ENABLE);
-  enableInterrupts(); /* 开启总中断 */
+ CLK_PeripheralClockConfig(CLK_Peripheral_USART2, ENABLE);
+ //GPIO_ExternalPullUpConfig(GPIOE,GPIO_Pin_3, ENABLE);//RX
+ GPIO_Init(GPIOE,GPIO_Pin_3,GPIO_Mode_In_PU_IT);
+ GPIO_ExternalPullUpConfig(GPIOE,GPIO_Pin_4, ENABLE);//TX         串口2   DEBUG
+ USART_DeInit(UART_DEBUG);
+ USART_Init(UART_DEBUG, (uint32_t)9600, USART_WordLength_8b, USART_StopBits_1, USART_Parity_No,(USART_Mode_TypeDef)(USART_Mode_Rx|USART_Mode_Tx));//配置串口波特率、字长、停止位、校验位、收发模式
+ USART_ITConfig(UART_DEBUG, USART_IT_RXNE, ENABLE);//使能串口2接收中断
+ USART_ITConfig(UART_DEBUG, USART_IT_IDLE, ENABLE);//使能串口空闲中断，接收一帧完成时产生中断
+ //USART_ITConfig(USART2, USART_IT_TC, ENABLE);//关闭串口2发送完成中断
+ USART_Cmd(UART_DEBUG , ENABLE);//调试串口使能
+  /*用于检查串口UART2是否发送完成,完成时，TC中断标志置位，退出轮询等待*/
+  while (USART_GetFlagStatus(UART_DEBUG, USART_FLAG_TC) == RESET);
 }
+/*系统printf函数实现*/
+int putchar(int c)
+{
+  if('\n' == (char)c)
+  {
+    USART_SendData8(USART2, '\r');
+    while (USART_GetFlagStatus(USART2, USART_FLAG_TC) == RESET);
+  }
+  USART_SendData8(USART2, c);
+  while (USART_GetFlagStatus(USART2, USART_FLAG_TC) == RESET);
+
+  return (c);
+}
+
+
 void print(char* fmt, ...)
 {
   double vargflt = 0;

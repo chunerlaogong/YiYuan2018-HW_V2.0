@@ -18,7 +18,7 @@
 #include "stm8l15x_it.h"
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 
 Sontroler_Symple TagCng_symple ={0x08,0x00,0x00,0x07,0x080,0x04,0x03,0};
 void deep_sleep(void);
@@ -259,6 +259,9 @@ void main()
 	enableInterrupts();
 	NBAtCommand.NBEnableFlag = 0x01;
 	TagCng_symple.Config.TagNode.McuSleepFlag = 0x01;
+        printf("Test Coap protocol = %d\n", 2000);
+        printf("Test Coap data = %s\n", "hello test");
+        printf("Test Coap data = %02X\n", 0x20);
         //…Ë÷√BT Name
         unsigned char setBtNameCmd[32];
         unsigned char tagIDStr[8];
@@ -270,8 +273,8 @@ void main()
 	DoNBiotATCmd((pNBiotAT)&NBAtCommand, AT_CMD, JUDGE_NONE, "", NBAtCommand.ATCMDData);	//÷¥––NB÷∏¡Ó
 	DoNBiotATCmd((pNBiotAT)&NBAtCommand, AT_NRB, JUDGE_NONE, "", NBAtCommand.ATCMDData);
 	DoNBiotATCmd((pNBiotAT)&NBAtCommand, AT_CMEE, JUDGE_NONE, "", NBAtCommand.ATCMDData);
-        BTPowerClr;
-        USART_Cmd(USART_FOR_BT, DISABLE);   //and by yjd
+    BTPowerClr;
+    USART_Cmd(USART_FOR_BT, DISABLE);   //and by yjd
 	while(1)
 	{
 		while(TagCng_symple.Config.Tag_status == ACTIVATE)

@@ -23,9 +23,9 @@ param([String]$debugfile = "");
 
 if ($debugfile -eq "")
 {
-& "F:\IARForStm8\common\bin\cspybat" -f "D:\公司项目-西谷物联\YJD\泊位宝(NB)\YiYuan2018 HW_V2.0(new)\settings\Rfid_RW_0G_I_DP_Ver1.Debug.general.xcl" --backend -f "D:\公司项目-西谷物联\YJD\泊位宝(NB)\YiYuan2018 HW_V2.0(new)\settings\Rfid_RW_0G_I_DP_Ver1.Debug.driver.xcl" 
+& "F:\IARForStm8\common\bin\cspybat" -f "D:\公司项目-西谷物联\YJD\BoWeiBao_BT\YiYuan2018-HW_V2.0\settings\Rfid_RW_0G_I_DP_Ver1.Debug.general.xcl" --backend -f "D:\公司项目-西谷物联\YJD\BoWeiBao_BT\YiYuan2018-HW_V2.0\settings\Rfid_RW_0G_I_DP_Ver1.Debug.driver.xcl" 
 }
 else
 {
-& "F:\IARForStm8\common\bin\cspybat" -f "D:\公司项目-西谷物联\YJD\泊位宝(NB)\YiYuan2018 HW_V2.0(new)\settings\Rfid_RW_0G_I_DP_Ver1.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\公司项目-西谷物联\YJD\泊位宝(NB)\YiYuan2018 HW_V2.0(new)\settings\Rfid_RW_0G_I_DP_Ver1.Debug.driver.xcl" 
+& "F:\IARForStm8\common\bin\cspybat" -f "D:\公司项目-西谷物联\YJD\BoWeiBao_BT\YiYuan2018-HW_V2.0\settings\Rfid_RW_0G_I_DP_Ver1.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\公司项目-西谷物联\YJD\BoWeiBao_BT\YiYuan2018-HW_V2.0\settings\Rfid_RW_0G_I_DP_Ver1.Debug.driver.xcl" 
 }
