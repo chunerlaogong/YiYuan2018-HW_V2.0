@@ -1,6 +1,6 @@
-*.o
+*.[o]
 Debug*/
 linker*/
 settings*/
 si folder*/
-*.o
+
